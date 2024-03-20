@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.clock {
+    font-family: 'Digital-7 Mono', monospace;
+    color: #0f0; /* Color verde de los displays digitales */
+    font-size: 60px;
+    letter-spacing: 7px;
+}
+
+@font-face {
+    font-family: 'Digital-7 Mono';
+    src: url('https://www.dafontfree.net/embed/ZGlnaXRhbC03LW1vbm8mZGF0YS80NC9kLzE5NjQ2Mi9EaWdpdGFsLTdfTW9uby50dGY') format('truetype');
+}
